@@ -1,6 +1,8 @@
-aiohttp[speedups]
+asyncio
+aiohttp
 aiofiles
 aioshutil
+aioqbt
 anytree==2.8.0
 apscheduler
 aria2p
@@ -41,6 +43,7 @@ telegraph
 tenacity
 tgcrypto
 uv
+uvicorn
 uvloop
 xattr
-yt-dlp
+yt-dlp[default,curl-cffi]
